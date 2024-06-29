@@ -1,0 +1,10 @@
+M by N: 10 8
+steps: 100
+robots: 7
+RoboCop                PCY      0         0
+Terminator             Sharaf   1         1
+TerminatorRoboCop      LKC      0         1
+BlueThunder            Bau      2         2
+Madbot                 LSL      2         random
+RoboTank               Goh      random    random
+UltimateRobot          NgHu     random    random
