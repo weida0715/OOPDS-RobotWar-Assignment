@@ -19,6 +19,7 @@ void UltimateRobot::action()
         randX = rand() % controller->getM();
         randY = rand() % controller->getN();
         if (randX != 0 && randY != 0)
+            fire(randX, randY);
             fireCount++;
     } while (fireCount < 3);
 
