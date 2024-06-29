@@ -6,5 +6,6 @@ void Madbot::action()
 
     int firePosX = getRobotPositionX() + neighbourhood[randIndex][0];
     int firePosY = getRobotPositionY() + neighbourhood[randIndex][1];
+    fire(firePosX, firePosY);
     controller->updateBattlefield();
 }
