@@ -52,8 +52,8 @@ void SimulationView::displayRobotInfo(Robot *robot)
     stringstream robotInfo;
     robotInfo << "Robot #" << robot->getRobotId() << ": "
               << setw(6) << left << robot->getRobotName() << "  "
-              << "Robot Character: " << setw(4) << left << robot->getRobotChar() << "  "
-              << "Type: " << setw(14) << left << robot->getCurrType() << "  "
+              << "Robot Character: " << setw(6) << left << robot->getRobotChar() << "  "
+              << "Type: " << setw(10) << left << robot->getCurrType() << "  "
               << "Position: (" << robot->getRobotPositionX() << ", " << robot->getRobotPositionY() << ")";
     printAndLog(robotInfo.str());
 }
