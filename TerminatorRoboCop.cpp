@@ -57,6 +57,4 @@ void TerminatorRoboCop::action()
             fireCount++;
         }
     } while (fireCount < 3);
-
-    controller->updateBattlefield();
 }
