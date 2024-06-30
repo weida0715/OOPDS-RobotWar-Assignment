@@ -38,6 +38,4 @@ void RoboTank::action()
     } while (randX == 0 && randY == 0 && !controller->checkBoundary(randX + getRobotPositionX(), randY + getRobotPositionY()));
 
     fire(randX, randY);
-
-    controller->updateBattlefield();
 }
