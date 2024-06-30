@@ -1,5 +1,5 @@
 /**********|**********|**********|
-Program: TurminatorRoboCop.cpp
+Program: TerminatorRoboCop.cpp
 Course: Object Oriented Programming and Data Structures
 Trimester: 2410
 Lecture Section: TC2L
