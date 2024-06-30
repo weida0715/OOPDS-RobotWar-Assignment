@@ -39,8 +39,8 @@ void SteppingRobot::stepAux(int x, int y)
             << x << ", " << y << ") is killed by stepping" << endl;
     controller->killRobot(x, y);
     addKill();
-    controller->displayKillCount(this);
     controller->displayMessage(stepMsg.str());
+    controller->displayKillCount(this);
 }
 
 void SteppingRobot::step(int x, int y)
