@@ -41,7 +41,7 @@ void SeeingRobot::lookAux(int x, int y, bool preferEnemy)
     int lookPosX = getRobotPositionX() + x,
         lookPosY = getRobotPositionY() + y;
 
-    controller->displayMessage("Looking at (" + to_string(x) + ", " + to_string(y) + ")");
+    controller->displayMessage("Looking at positions surrounding (" + to_string(lookPosX) + ", " + to_string(lookPosY) + ")");
 
     for (int i = 0; i < 8; i++)
     {
