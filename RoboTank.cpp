@@ -35,7 +35,7 @@ void RoboTank::action()
     {
         randX = rand() % controller->getN();
         randY = rand() % controller->getM();
-    } while (randX == 0 && randY == 0);
+    } while (randX == 0 && randY == 0 && !controller->checkBoundary(randX + getRobotPositionX(), randY + getRobotPositionY()));
 
     fire(randX, randY);
 
