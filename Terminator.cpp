@@ -40,6 +40,4 @@ void Terminator::action()
         step(decidedX, decidedY);
     else
         move(decidedX, decidedY);
-
-    controller->updateBattlefield();
 }
