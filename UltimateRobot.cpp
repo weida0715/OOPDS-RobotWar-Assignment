@@ -52,6 +52,4 @@ void UltimateRobot::action()
             fireCount++;
         }
     } while (fireCount < 3);
-
-    controller->updateBattlefield();
 }
