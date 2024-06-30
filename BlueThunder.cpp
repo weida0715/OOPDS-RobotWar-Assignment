@@ -34,6 +34,4 @@ void BlueThunder::action()
     int firePosY = neighbourhood[fireIndex][1];
     fireIndex = (fireIndex + 1) % 8;
     fire(firePosX, firePosY);
-
-    controller->updateBattlefield();
 }
