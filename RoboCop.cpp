@@ -42,7 +42,7 @@ void RoboCop::action()
         int rangeLeft = maxRange - abs(fireX);
         fireY = rand() % (2 * rangeLeft + 1) - rangeLeft;
 
-        if (fireX != 0 && fireY != 0 && !controller->checkBoundary(fireX + getRobotPositionX(), fireY + getRobotPositionY()))
+        if ((fireX != 0 || fireY != 0) && !controller->checkBoundary(fireX + getRobotPositionX(), fireY + getRobotPositionY()))
         {
             fire(fireX, fireY);
             fireCount++;
